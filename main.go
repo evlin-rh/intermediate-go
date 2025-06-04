@@ -1,11 +1,14 @@
 package main
 
 import (
+	"github.com/evlin-rh/intermediate-go/arrays"
 	"github.com/evlin-rh/intermediate-go/print"
 )
 
 func main() {
-	//print.PrintMessage()
+	print.PrintMessage()
 	//print.PrintFMessage()
-	print.PrintVerb()
+	//print.PrintVerb()
+	arrays.AppendSlices()
+
 }
