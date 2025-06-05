@@ -3,8 +3,9 @@ package main
 import (
 	//"github.com/evlin-rh/intermediate-go/arrays"
 	//"github.com/evlin-rh/intermediate-go/print"
+	//"github.com/evlin-rh/intermediate-go/maps"
 
-	"github.com/evlin-rh/intermediate-go/maps"
+	"github.com/evlin-rh/intermediate-go/functions"
 )
 
 func main() {
@@ -23,5 +24,7 @@ func main() {
 	//maps.CountMap()
 	//maps.Struct()
 	//maps.SortKeys()
-	maps.SwitchStatement(23)
+	//maps.SwitchStatement(23)
+
+	functions.NonNamedReturn()
 }
