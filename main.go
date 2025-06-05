@@ -22,9 +22,13 @@ func main() {
 	//maps.DeleteMap()
 	//maps.BoolKey()
 	//maps.CountMap()
-	//maps.Struct()
+	//maps.Struct()s
 	//maps.SortKeys()
 	//maps.SwitchStatement(23)
 
-	functions.NonNamedReturn()
+	//functions.NonNamedReturn()
+	//functions.MultipleVariadic(1, "Hello", "Goodbye")
+
+	words := []string{"Hello", "Goodbye"}
+	functions.VariadicSlice(words...)
 }
